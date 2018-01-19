@@ -41,6 +41,15 @@ public class OurController {
     }
 
     //ändring i branch ny_branch
+    //test för stash
+    //och testa branch
+    //på branchen
+
+
+    //i den nya branchen
+
+    //efter inmerge
+
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(OurController.class, args);
