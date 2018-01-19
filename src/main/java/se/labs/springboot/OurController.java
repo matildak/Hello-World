@@ -28,6 +28,19 @@ public class OurController {
         return "YO " + name;
     }
 
+    @RequestMapping("/yo/{name}/test")
+    @ResponseBody
+    String yoyo(@PathVariable String name) {
+        return "YO " + name + " test";
+    }
+
+    @RequestMapping("/age/{age}/years")
+    @ResponseBody
+    String age(@PathVariable String age) {
+        return "Age " + age + " years";
+    }
+
+
     public static void main(String[] args) throws Exception {
         SpringApplication.run(OurController.class, args);
     }
